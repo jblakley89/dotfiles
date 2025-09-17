@@ -5,7 +5,7 @@
 #### Install with copy
  1. clone at your home directory to create the `~/dotfiles/` folder with configs
  1. copy the root level `.zshrc` and `.tmux.conf` files to your home directory at `~/`
-   - Alternatively, usea symlink with `ln -s ~/dotfiles/{.zshrc,.zshrc_base,.tmux.conf} ~/`
+   - Alternatively, usea symlink with `ln -s ~/dotfiles/{.zshrc,.tmux.conf} ~/`
  1. copy the folders in the `.config` folder to your config location at `~/.config/`
    - Alternatively, use a symlink with `ln -s `~/dotfiles/.config/* ~/.config/`
 
@@ -21,7 +21,12 @@ after installing `nvm` you may need to modify the source path in `~/.zshrc_base`
 * [ohmyzsh](https://github.com/robbyrussell/oh-my-zsh/tree/291e96dcd034750fbe7473482508c08833b168e3): Borrowed things like tab completion, fixing ls, tmux's vi-mode plugin.
 * [vimode-zsh](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode) allows you to hit `esc` and navigate the current buffer using vim movement keys.
 
-## Remapping
+## Keymapping
+#### Vim
+|key|function|
+|---|--------|
+|C-s| Rerun last command with sudo |
+
 #### Vim
 |key|function|
 |---|--------|
@@ -30,7 +35,8 @@ after installing `nvm` you may need to modify the source path in `~/.zshrc_base`
 | l | right  |
 | h | up     |
 | k | down   |
-
+|C-p| fuzzy file search |
+|C-n| file tree toggle |
 
 #### Tmux
 |key|function|

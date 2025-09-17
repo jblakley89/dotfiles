@@ -55,15 +55,18 @@
 	},
 	"temperature#cpu": {
         "format": " | {} 󰔄",
-		"hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input"
+		"hwmon-path-abs": "/sys/devices/pci0000:00/0000:00:18.3/hwmon",
+        "input-filename": "temp1_input"
 	},
 	"temperature#gpu": {
         "format": "󰈩 {} 󰔄",
-		"hwmon-path": "/sys/class/hwmon/hwmon7/temp1_input"
+        "hwmon-path-abs": "/sys/devices/pci0000:00/0000:00:01.1/0000:01:00.0/0000:02:00.0/0000:03:00.0/hwmon",
+        "input-filename": "temp1_input"
 	},
 	"temperature#gpuhot": {
         "format": " | {} 󰔄",
-		"hwmon-path": "/sys/class/hwmon/hwmon7/temp2_input"
+        "hwmon-path-abs": "/sys/devices/pci0000:00/0000:00:01.1/0000:01:00.0/0000:02:00.0/0000:03:00.0/hwmon",
+        "input-filename": "temp2_input"
 	},
     "memory": {
         "interval": 5,

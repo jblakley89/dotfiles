@@ -5,6 +5,7 @@ return {
       local builtin = require('telescope.builtin')
       local keymap = vim.keymap
 
-      keymap.set('n', '<C-p>', builtin.find_files, {})
+      --keymap.set('n', '<C-p>', builtin.find_files, {})
+      keymap.set('n', '<C-p>', '<CMD>Telescope find_files find_command=rg,--files,--hidden,--glob=!**/.git/*<cr>', {})
     end
 }
