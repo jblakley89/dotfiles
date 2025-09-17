@@ -11,7 +11,7 @@
 
 #### Dependencies
 we rely on the following packages, `zsh neovim nvm tmux`
-after installing `nvm` you may need to modify the source path in `~/.zshrc_base`
+after installing `nvm` you may need to modify the source path in `~/.config/zsh/nvm.sh`.
 
 
 ## Plugins
