@@ -39,6 +39,12 @@ return {
         "pyright",
         "eslint",
         "omnisharp",
+        "helm_ls",
+        "bashls",
+        "angularls",
+        "terraformls",
+        "docker_language_server",
+        "java_language_server",
       },
     })
 

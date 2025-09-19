@@ -5,6 +5,7 @@ export ZSH=$HOME/.config/zsh/plugins/oh-my-zsh
 DISABLE_AUTO_UPDATE=true
 ZSH_CUSTOM=$HOME/.config/zsh/custom
 ZSH_THEME="bard"
+export TERM=screen-256color
 
 # History
 HISTFILE=$HOME/.zsh_history
